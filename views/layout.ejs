@@ -7,21 +7,23 @@
   </head>
   <body>
     <div id="contenedor">
-      <header>
+      <header class="cabecera">
         <h1>Quiz: el juego de las preguntas</h1>
       </header>
-      <nav>
-        <ul>
+      <nav class="menu">
+        <ul class="lista">
           <li><a href="/">Inicio</a></li>
-          <li><a href="quizes/question">Preguntas</a></li>
+          <li><a href="../quizes/question">Preguntas</a></li>
         </ul>
       </nav>
-      <section>
-        <%= body %>
+
+      <section class="contenido">
+        <%- body %>
       </section>
-      <footer>
-        <ul>
-          <li><a href="#">¿Qué es un quiz?</a></li>
+      <footer class="pie">
+        <p>Proyecto Quiz I: Patrón Modelo-Vista-Controlador (MVC); generación del proyecto con express-generator; Primera Página y Primera Pregunta; Despliegue en la nube (Heroku)</p>
+        <ul class="lista">
+          <li><a href="https://en.wikipedia.org/wiki/Quiz">¿Qué es un quiz? (inglés)</a></li>
           <li><a href="#">Proyecto github</a></li>
         </ul>
       </footer>

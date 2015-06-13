@@ -1,0 +1,101 @@
+2015-06-13T05:29:13.699011+00:00 app[web.1]:     at Module.require (module.js:365:17)
+2015-06-13T05:29:13.699012+00:00 app[web.1]:     at require (module.js:384:17)
+2015-06-13T05:29:13.699014+00:00 app[web.1]:     at Object.<anonymous> (/app/controllers/quiz_controller.js:1:76)
+2015-06-13T05:29:13.699015+00:00 app[web.1]:     at Module._compile (module.js:460:26)
+2015-06-13T05:29:13.699017+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:478:10)
+2015-06-13T05:29:13.699018+00:00 app[web.1]:     at Module.load (module.js:355:32)
+2015-06-13T05:29:13.699019+00:00 app[web.1]:     at Function.Module._load (module.js:310:12)
+2015-06-13T05:29:13.699021+00:00 app[web.1]:     at Module.require (module.js:365:17)
+2015-06-13T05:29:13.699022+00:00 app[web.1]:     at require (module.js:384:17)
+2015-06-13T05:29:13.699023+00:00 app[web.1]:     at Object.<anonymous> (/app/routes/index.js:4:22)
+2015-06-13T05:29:14.492905+00:00 heroku[web.1]: Process exited with status 1
+2015-06-13T05:29:14.504878+00:00 heroku[web.1]: State changed from starting to crashed
+2015-06-13T17:38:46.208580+00:00 heroku[slug-compiler]: Slug compilation started
+2015-06-13T17:38:46.208599+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-06-13T17:38:46.165416+00:00 heroku[api]: Deploy 2c0d37c by hello@albertomar.in
+2015-06-13T17:38:46.165416+00:00 heroku[api]: Release v17 created by hello@albertomar.in
+2015-06-13T17:38:46.395467+00:00 heroku[web.1]: State changed from crashed to starting
+2015-06-13T17:38:49.295096+00:00 heroku[web.1]: Starting process with command `node ./bin/www`
+2015-06-13T17:38:51.447712+00:00 app[web.1]: Detected 512 MB available memory, 512 MB limit per process (WEB_MEMORY)
+2015-06-13T17:38:51.447736+00:00 app[web.1]: Recommending WEB_CONCURRENCY=1
+2015-06-13T17:38:52.361616+00:00 app[web.1]: /app/node_modules/sequelize/lib/sequelize.js:182
+2015-06-13T17:38:52.361621+00:00 app[web.1]:     throw new Error('The dialect ' + this.getDialect() + ' is not supported. (
+2015-06-13T17:38:52.361624+00:00 app[web.1]:           ^
+2015-06-13T17:38:52.361626+00:00 app[web.1]: Error: The dialect postgres is not supported. (Error: Cannot find module 'pg-hstore')
+2015-06-13T17:38:52.361628+00:00 app[web.1]:     at new Sequelize (/app/node_modules/sequelize/lib/sequelize.js:182:11)
+2015-06-13T17:38:52.361629+00:00 app[web.1]:     at Object.<anonymous> (/app/models/models.js:19:17)
+2015-06-13T17:38:52.361631+00:00 app[web.1]:     at Module._compile (module.js:460:26)
+2015-06-13T17:38:52.361633+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:478:10)
+2015-06-13T17:38:52.361635+00:00 app[web.1]:     at Module.load (module.js:355:32)
+2015-06-13T17:38:52.361636+00:00 app[web.1]:     at Function.Module._load (module.js:310:12)
+2015-06-13T17:38:52.361638+00:00 app[web.1]:     at Module.require (module.js:365:17)
+2015-06-13T17:38:52.361640+00:00 app[web.1]:     at require (module.js:384:17)
+2015-06-13T17:38:52.361642+00:00 app[web.1]:     at Object.<anonymous> (/app/controllers/quiz_controller.js:1:76)
+2015-06-13T17:38:52.361644+00:00 app[web.1]:     at Module._compile (module.js:460:26)
+2015-06-13T17:38:52.361645+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:478:10)
+2015-06-13T17:38:52.361647+00:00 app[web.1]:     at Module.load (module.js:355:32)
+2015-06-13T17:38:52.361648+00:00 app[web.1]:     at Function.Module._load (module.js:310:12)
+2015-06-13T17:38:52.361650+00:00 app[web.1]:     at Module.require (module.js:365:17)
+2015-06-13T17:38:52.361653+00:00 app[web.1]:     at Object.<anonymous> (/app/routes/index.js:4:22)
+2015-06-13T17:38:52.361651+00:00 app[web.1]:     at require (module.js:384:17)
+2015-06-13T17:38:53.244139+00:00 heroku[web.1]: Process exited with status 1
+2015-06-13T17:38:53.261302+00:00 heroku[web.1]: State changed from starting to crashed
+2015-06-13T17:38:53.262186+00:00 heroku[web.1]: State changed from crashed to starting
+2015-06-13T17:38:55.150968+00:00 heroku[web.1]: Starting process with command `node ./bin/www`
+2015-06-13T17:38:57.011279+00:00 app[web.1]: Detected 512 MB available memory, 512 MB limit per process (WEB_MEMORY)
+2015-06-13T17:38:57.011302+00:00 app[web.1]: Recommending WEB_CONCURRENCY=1
+2015-06-13T17:38:57.659468+00:00 app[web.1]:     throw new Error('The dialect ' + this.getDialect() + ' is not supported. (
+2015-06-13T17:38:57.659463+00:00 app[web.1]: /app/node_modules/sequelize/lib/sequelize.js:182
+2015-06-13T17:38:57.659471+00:00 app[web.1]:           ^
+2015-06-13T17:38:57.659472+00:00 app[web.1]: Error: The dialect postgres is not supported. (Error: Cannot find module 'pg-hstore')
+2015-06-13T17:38:57.659474+00:00 app[web.1]:     at new Sequelize (/app/node_modules/sequelize/lib/sequelize.js:182:11)
+2015-06-13T17:38:57.659475+00:00 app[web.1]:     at Object.<anonymous> (/app/models/models.js:19:17)
+2015-06-13T17:38:57.659477+00:00 app[web.1]:     at Module._compile (module.js:460:26)
+2015-06-13T17:38:57.659478+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:478:10)
+2015-06-13T17:38:57.659480+00:00 app[web.1]:     at Module.load (module.js:355:32)
+2015-06-13T17:38:57.659483+00:00 app[web.1]:     at Module.require (module.js:365:17)
+2015-06-13T17:38:57.659481+00:00 app[web.1]:     at Function.Module._load (module.js:310:12)
+2015-06-13T17:38:57.659484+00:00 app[web.1]:     at require (module.js:384:17)
+2015-06-13T17:38:57.659486+00:00 app[web.1]:     at Object.<anonymous> (/app/controllers/quiz_controller.js:1:76)
+2015-06-13T17:38:57.659487+00:00 app[web.1]:     at Module._compile (module.js:460:26)
+2015-06-13T17:38:57.659489+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:478:10)
+2015-06-13T17:38:57.659491+00:00 app[web.1]:     at Function.Module._load (module.js:310:12)
+2015-06-13T17:38:57.659490+00:00 app[web.1]:     at Module.load (module.js:355:32)
+2015-06-13T17:38:57.659495+00:00 app[web.1]:     at Object.<anonymous> (/app/routes/index.js:4:22)
+2015-06-13T17:38:57.659493+00:00 app[web.1]:     at Module.require (module.js:365:17)
+2015-06-13T17:38:57.659494+00:00 app[web.1]:     at require (module.js:384:17)
+2015-06-13T17:38:58.395005+00:00 heroku[web.1]: State changed from starting to crashed
+2015-06-13T17:38:58.382849+00:00 heroku[web.1]: Process exited with status 1
+2015-06-13T17:39:29.618744+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=quiet-savannah-4704.herokuapp.com request_id=1650cb27-cc26-44b7-9d3b-a664778882cc fwd="80.31.123.161" dyno= connect= service= status=503 bytes=
+2015-06-13T17:44:41.084920+00:00 heroku[slug-compiler]: Slug compilation started
+2015-06-13T17:44:41.084942+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-06-13T17:44:41.036773+00:00 heroku[api]: Deploy 2c0d37c by hello@albertomar.in
+2015-06-13T17:44:41.036773+00:00 heroku[api]: Release v18 created by hello@albertomar.in
+2015-06-13T17:44:41.234159+00:00 heroku[web.1]: State changed from crashed to starting
+2015-06-13T17:44:43.537437+00:00 heroku[web.1]: Starting process with command `node ./bin/www`
+2015-06-13T17:44:44.713949+00:00 app[web.1]: Detected 512 MB available memory, 512 MB limit per process (WEB_MEMORY)
+2015-06-13T17:44:44.713976+00:00 app[web.1]: Recommending WEB_CONCURRENCY=1
+2015-06-13T17:44:45.348423+00:00 app[web.1]:     throw new Error('The dialect ' + this.getDialect() + ' is not supported. (
+2015-06-13T17:44:45.348418+00:00 app[web.1]: /app/node_modules/sequelize/lib/sequelize.js:182
+2015-06-13T17:44:45.348425+00:00 app[web.1]:           ^
+2015-06-13T17:44:45.348427+00:00 app[web.1]: Error: The dialect postgres is not supported. (Error: Cannot find module 'pg-hstore')
+2015-06-13T17:44:45.348460+00:00 app[web.1]:     at new Sequelize (/app/node_modules/sequelize/lib/sequelize.js:182:11)
+2015-06-13T17:44:45.348463+00:00 app[web.1]:     at Module._compile (module.js:460:26)
+2015-06-13T17:44:45.348461+00:00 app[web.1]:     at Object.<anonymous> (/app/models/models.js:19:17)
+2015-06-13T17:44:45.348464+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:478:10)
+2015-06-13T17:44:45.348466+00:00 app[web.1]:     at Module.load (module.js:355:32)
+2015-06-13T17:44:45.348467+00:00 app[web.1]:     at Function.Module._load (module.js:310:12)
+2015-06-13T17:44:45.348469+00:00 app[web.1]:     at Module.require (module.js:365:17)
+2015-06-13T17:44:45.348470+00:00 app[web.1]:     at require (module.js:384:17)
+2015-06-13T17:44:45.348472+00:00 app[web.1]:     at Object.<anonymous> (/app/controllers/quiz_controller.js:1:76)
+2015-06-13T17:44:45.348473+00:00 app[web.1]:     at Module._compile (module.js:460:26)
+2015-06-13T17:44:45.348474+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:478:10)
+2015-06-13T17:44:45.348476+00:00 app[web.1]:     at Module.load (module.js:355:32)
+2015-06-13T17:44:45.348477+00:00 app[web.1]:     at Function.Module._load (module.js:310:12)
+2015-06-13T17:44:45.348478+00:00 app[web.1]:     at Module.require (module.js:365:17)
+2015-06-13T17:44:45.348479+00:00 app[web.1]:     at require (module.js:384:17)
+2015-06-13T17:44:45.348481+00:00 app[web.1]:     at Object.<anonymous> (/app/routes/index.js:4:22)
+2015-06-13T17:44:46.013029+00:00 heroku[web.1]: Process exited with status 1
+2015-06-13T17:44:46.028416+00:00 heroku[web.1]: State changed from starting to crashed
+2015-06-13T17:45:03.554002+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=quiet-savannah-4704.herokuapp.com request_id=002aab79-b9dc-4d27-97cc-618a1a9f5aac fwd="80.31.123.161" dyno= connect= service= status=503 bytes=
+2015-06-13T18:02:12.452472+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=quiet-savannah-4704.herokuapp.com request_id=c3a11e93-23e7-4cdd-b4f3-f3278187c621 fwd="80.31.123.161" dyno= connect= service= status=503 bytes=

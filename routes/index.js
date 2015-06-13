@@ -13,9 +13,10 @@ router.get('/author', function(req, res, next){
 });
 
 /* GET question page */
-router.get('/quizes/question', quizController.question);
-
 /* GET answer page */
-router.get('/quizes/answer', quizController.answer);
+
+router.get('/quizes', quizController.index);
+router.get('/quizes/:id', quizController.show);
+router.get('/quizes/:id/answer', quizController.answer);
 
 module.exports = router;
